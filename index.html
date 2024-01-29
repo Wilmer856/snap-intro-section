@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <title>Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <img src="images/logo.svg" alt="" class="logo" />
+        <ul class="nav-menu">
+          <li class="nav-item feature-item">
+            <a href="" class="nav-link">Features</a>
+            <img src="images/icon-arrow-down.svg" alt="" class="arrow-icon-1" />
+            <div class="feature-active">
+              <div class="feature">
+                <img src="images/icon-todo.svg" alt="" />
+                <a href="#">Todo List</a>
+              </div>
+              <div class="feature">
+                <img src="images/icon-calendar.svg" alt="" />
+                <a href="#">Calendar</a>
+              </div>
+              <div class="feature">
+                <img src="images/icon-reminders.svg" alt="" />
+                <a href="#">Reminders</a>
+              </div>
+              <div class="feature">
+                <img src="images/icon-planning.svg" alt="" />
+                <a href="#">Planning</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item company-item">
+            <a href="" class="nav-link">Company</a>
+            <img src="images/icon-arrow-down.svg" alt="" class="arrow-icon-2" />
+            <div class="company-active">
+              <div class="company">
+                <a href="#">History</a>
+              </div>
+              <div class="company">
+                <a href="#">Our Team</a>
+              </div>
+              <div class="company">
+                <a href="#">Blog</a>
+              </div>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">Careers</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link">About</a>
+          </li>
+          <li class="nav-item login-item">
+            <a href="" class="nav-link">Login</a>
+            <button class="register-btn">Register</button>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <div class="line line-1"></div>
+          <div class="line line-2"></div>
+          <div class="line line-3"></div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <section class="info">
+        <h1 class="main-header">Make remote work</h1>
+        <p class="main-description">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="learn-btn">Learn more</button>
+        <div class="client-con">
+          <img src="images/client-databiz.svg" alt="" class="client-img" />
+          <img src="images/client-audiophile.svg" alt="" class="client-img" />
+          <img src="images/client-meet.svg" alt="" class="client-img" />
+          <img src="images/client-maker.svg" alt="" class="client-img" />
+        </div>
+      </section>
+      <section class="image-container">
+        <img src="images/image-hero-desktop.png" alt="" class="hero" />
+      </section>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>
